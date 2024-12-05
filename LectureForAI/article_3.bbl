@@ -20,6 +20,10 @@ E.~M. Bender, T.~Gebru, A.~McMillan-Major, and S.~Shmitchell.
 \newblock On the dangers of stochastic parrots: Can language models be too big?
 \newblock {\em Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency}, pages 610--623, 2021.
 
+\bibitem{vaswani2023attentionneed}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need, 2023.
+
 \bibitem{Figueredo:2009dg}
 A.~J. Figueredo and P.~S.~A. Wolf.
 \newblock Assortative pairing and life history strategy - a cross-cultural study.

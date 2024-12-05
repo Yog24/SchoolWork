@@ -26,6 +26,10 @@
 
 \usepackage{lipsum,cite} % Required to insert dummy text. To be removed otherwise
 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+
 %----------------------------------------------------------------------------------------
 %	COLUMNS
 %----------------------------------------------------------------------------------------
@@ -63,7 +67,7 @@
 %----------------------------------------------------------------------------------------
 
 \JournalInfo{Survey Report, 7, Nov, 2024} % Journal information
-\Archive{Final report for AI3605} % Additional notes (e.g. copyright, DOI, review/research article)
+\Archive{Final Report for AI3605} % Additional notes (e.g. copyright, DOI, review/research article)
 
 \PaperTitle{Opportunities and Challenges of Large Language Models in Industry Applications} % Article title
 
@@ -154,14 +158,115 @@ This survey aims to connect advances in research with real-world applications of
 % 	\item Third item in a list
 % \end{enumerate}
 
-\subsection{Machanism}
+
 
 % \lipsum[6] % Dummy text
 
-\paragraph{Paragraph} \lipsum[7] % Dummy text
-\paragraph{Paragraph} \lipsum[8] % Dummy text
+\subsection{Objective of Language Modeling}
 
-\subsection{Architectures}
+Large Language Models (LLMs) predict the probability of natural language sequences. Specifically, they compute the probability of the next word \(w_t\) based on previous words. This is expressed as:
+\[
+P(w_t | w_1, w_2, \ldots, w_{t-1}).
+\]
+For a full sequence \(W = (w_1, w_2, \ldots, w_T)\), the model maximizes the likelihood function during training:
+\[
+\mathcal{L}(\theta) = \sum_{t=1}^T \log P(w_t | w_1, w_2, \ldots, w_{t-1}; \theta).
+\]
+Here, \(\theta\) represents the model parameters.
+
+\subsubsection{Transformer Architecture}
+
+Transformer architecture is a neural network model. It has significantly impacted natural language processing (NLP). Unlike traditional recurrent neural networks (RNNs), transformers use an attention mechanism. This mechanism helps the model focus on important parts of the input sequence. This helps the model capture long-range dependencies. As a result, transformers perform better in various NLP tasks. 
+
+\begin{figure}[ht]\centering
+	\includegraphics[width=0.3\textwidth]{Figures/attention.png}
+	\caption{The  encoder-decoder structure of the Transformer architecture
+	Taken from “Attention Is All You Need“\cite{vaswani2023attentionneed}}
+	\label{fig:tran}
+\end{figure}
+
+\subsubsection{Self-Attention Mechanism}
+
+The self-attention mechanism identifies the importance of input tokens relative to each other. For an input sequence \(X \in \mathbb{R}^{n \times d}\), where \(n\) is the sequence length and \(d\) is the embedding dimension, the process follows these steps:
+\begin{enumerate}
+    \item Compute query \(Q\), key \(K\), and value \(V\) matrices:
+    \[
+    Q = XW_Q, \quad K = XW_K, \quad V = XW_V,
+    \]
+    where \(W_Q, W_K, W_V \in \mathbb{R}^{d \times d_k}\) are trainable weight matrices.
+    \item Calculate attention scores:
+    \[
+    \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V.
+    \]
+    The \(\sqrt{d_k}\) term normalizes the dot product to improve stability.
+\end{enumerate}
+
+\subsubsection{Multi-Head Attention}
+
+Multi-head attention enhances the model's ability to learn diverse patterns. It divides self-attention into multiple parallel "heads." The output is:
+\[
+\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \text{head}_2, \ldots, \text{head}_h)W_O,
+\]
+where each head is:
+\[
+\text{head}_i = \text{Attention}(QW_{Q_i}, KW_{K_i}, VW_{V_i}).
+\]
+Here, \(W_{Q_i}, W_{K_i}, W_{V_i} \in \mathbb{R}^{d \times d_k}\) are weight matrices, and \(W_O \in \mathbb{R}^{hd_k \times d}\) combines the outputs.
+
+\subsubsection{Positional Encoding}
+
+Transformers do not have recurrence. To handle token order, positional encoding is added to the input embeddings. With sinusoidal encoding, for position \(t\) and dimension \(i\):
+\[
+PE(t, 2i) = \sin\left(\frac{t}{10000^{2i/d}}\right), \quad PE(t, 2i+1) = \cos\left(\frac{t}{10000^{2i/d}}\right).
+\]
+
+\subsection{Feed-Forward Neural Network (FFN)}
+
+Each transformer layer includes a feed-forward neural network. It applies a non-linear transformation to each token independently:
+\[
+\text{FFN}(x) = \text{ReLU}(xW_1 + b_1)W_2 + b_2,
+\]
+where \(W_1, W_2\) are weight matrices, and \(b_1, b_2\) are biases.
+
+\subsection{Training Objective}
+
+LLMs are trained using the negative log-likelihood of the true sequence:
+\[
+\mathcal{L}(\theta) = -\sum_{t=1}^T \log P_\theta(w_t | w_1, w_2, \ldots, w_{t-1}).
+\]
+The model computes \(P_\theta(w_t | \cdot)\) using the softmax function:
+\[
+P_\theta(w_t | \cdot) = \frac{\exp(z_t)}{\sum_{w' \in \mathcal{V}} \exp(z_{w'})}.
+\]
+Here, \(z_t\) are the logits for token \(w_t\), and \(\mathcal{V}\) is the vocabulary.
+
+\subsection{Optimization}
+
+The model parameters are optimized using stochastic gradient descent (SGD) or its variants, like Adam. The gradient of the loss with respect to parameters \(\theta\) is:
+\[
+\frac{\partial \mathcal{L}}{\partial \theta} = \sum_{t=1}^T \frac{\partial \log P_\theta(w_t | w_1, w_2, \ldots, w_{t-1})}{\partial \theta}.
+\]
+The parameters are updated iteratively:
+\[
+\theta \leftarrow \theta - \eta \frac{\partial \mathcal{L}}{\partial \theta},
+\]
+where \(\eta\) is the learning rate.
+
+\subsection{Scaling and Fine-Tuning}
+Fine-tuning is a technique that we use to adapt a pre-trained LLM to a specific task or domain. This allow us to train pre-trained LLM on a smaller, field-specific dataset, which can make the LLMs behave well in the specific domain. By fine-tuning, we can improve the model's performance, and more inspiringly, we can make experts in any specific field.
+
+LLM performance improves with scaling. Key scaling strategies include:
+\begin{itemize}
+    \item \textbf{Depth}: Increase the number of transformer layers.
+    \item \textbf{Width}: Use larger embedding dimensions.
+    \item \textbf{Data}: Train on large-scale text corpora.
+\end{itemize}
+
+By the escalation of the factors we mentioned above, LLM can grow stronger and stronger. Figuratively, LLM is just like a child who is learning to speak. With more knowledge(data), bigger brain(width), the child will become more and more smart. This is so called \textbf{Scaling Laws}, which is one of the most important factors that cause the rapid development and potential issues of LLM.
+
+
+
+% \subsection{Architectures}
 
 % \lipsum[9] % Dummy text
 
@@ -174,7 +279,7 @@ This survey aims to connect advances in research with real-world applications of
 % Reference to Figure \ref{fig:results}.
 
 % it depends
-\subsection{Potential Issues}
+% \subsection{Potential Issues}
 %------------------------------------------------
 
 \section{Industry Application Scenarios}
@@ -183,56 +288,43 @@ This survey aims to connect advances in research with real-world applications of
 
 \subsection{Content Creation}
 
-\subsubsection{Automatical Writing}
-\paragraph{Case} Name % Dummy text
-\subsubsection{Need-to-be-done}
+\paragraph{Automatical Writing} Name % Dummy text
+
 \paragraph{Case} Name % Dummy text
 
 
 \subsection{Chatbot}
 
-\subsubsection{Customer Support}
-\paragraph{Case} Name % Dummy text
+\paragraph{Customer Support} Name % Dummy text
 
-\subsubsection{Q\&A Systems}
-\paragraph{Case} Name % Dummy text
+\paragraph{Q\&A Systems} Name % Dummy text
 
 \subsection{Healcare}
 
-\subsubsection{Diagnostic Assistance}
-\paragraph{Case} Name % Dummy text
+\paragraph{Diagnostic Assistance} Name % Dummy text
 
-\subsubsection{Medical Record Generation}
-\paragraph{Case} Name % Dummy text
+\paragraph{Medical Record Generation} Name % Dummy text
 
-\subsubsection{Health Analysis \& Advice}
-\paragraph{Case} Name % Dummy text
+\paragraph{Health Analysis \& Advice} Name % Dummy text
 
 
 \subsection{Education}
 
-\subsubsection{Personalized Learning}
-\paragraph{Case} Name % Dummy text
+\paragraph{Personalized Learning} In 2023, Chinese education technology companies actively applied big models in the field of education and launched a number of innovative applications to improve teaching and learning effects through intelligent means. In July, NetEase Youdao released the big model "Zi Yue" for K12 education, which accomplishes personalized analysis guidance, guided learning and other functions. The big model can better teach students in accordance with their aptitude and provide students with all-round knowledge support. In August, TAL Education Technology released their big model MathGPT in the field of mathematics, which can automatically generate questions and give answers, covering elementary school to high school mathematics knowledge. 
 
-\subsubsection{Language Learning}
-\paragraph{Case} Name % Dummy text
+LLMs in the field of education are becoming a new tool for intelligent assisted teaching. Their knowledge integration capabilities can meet the dynamic needs of students, realize personalized learning, and improve the quality of teaching together with teachers.
 
-\subsubsection{Skills Training}
-\paragraph{Case} Name % Dummy text
+\paragraph{Language Learning} Named Large Language Models, LLMs are born to be brilliant in language field, which can be proved by the fact that the first batch of embedding LLMs into industrial applications is professional language teaching institutions like Duolingo. As early as 2021, before ChatGPT formally published, Duolingo has embeded GPT-3 into their language-teaching application to help generate learning content. As LLMs growing more and more powerful, now it can be used in many scenarios including DIY learning content, making personalized learning plans, helping students to improve their writing skills, and thanks to MLLMs(multi-modal LLMs), it can even be used to talk with learners and help them to improve their listening and oral skills.
+\paragraph{Skills Training} Name % Dummy text
 
 \subsection{Finace \& Legal}
 
-\subsubsection{Sales and Marketing}
-\paragraph{Case} Name % Dummy text
+\paragraph{Sales and Marketing} Name % Dummy text
+\paragraph{Financial Analysis} Name % Dummy text
 
-\subsubsection{Financial Analysis}
-\paragraph{Case} Name % Dummy text
+\paragraph{Risk Assessment} Name % Dummy text
 
-\subsubsection{Risk Assessment}
-\paragraph{Case} Name % Dummy text
-
-\subsubsection{Legal Assistance}
-\paragraph{Case} Name % Dummy text
+\paragraph{Legal Assistance} Name % Dummy text
 
 
 % \lipsum[11] % Dummy text
