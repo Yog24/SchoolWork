@@ -24,6 +24,10 @@ E.~M. Bender, T.~Gebru, A.~McMillan-Major, and S.~Shmitchell.
 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
 \newblock Attention is all you need, 2023.
 
+\bibitem{wu2024roleplay}
+Weiqi Wu, Hongqiu Wu, Lai Jiang, Xingyuan Liu, Jiale Hong, Hai Zhao, and Min Zhang.
+\newblock From role-play to drama-interaction: An llm solution, 2024.
+
 \bibitem{Figueredo:2009dg}
 A.~J. Figueredo and P.~S.~A. Wolf.
 \newblock Assortative pairing and life history strategy - a cross-cultural study.

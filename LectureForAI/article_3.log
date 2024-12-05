@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.25)  5 DEC 2024 22:48
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.25)  6 DEC 2024 02:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -900,12 +900,44 @@ Overfull \hbox (2.19925pt too wide) in paragraph at lines 225--226
 \TU/TeXGyreTermesX(0)/m/n/10 Each transformer layer includes a feed-forward neural network.
  []
 
+
+Overfull \hbox (12.40483pt too wide) in paragraph at lines 300--301
+\TU/TeXGyreTermesX(0)/m/n/10 staff. For example, Wofeng Technology provides Bayer (China)’s
+ []
+
+File: Figures/LLMs.png Graphic file (type bmp)
+<Figures/LLMs.png>
+
+Overfull \hbox (2.68927pt too wide) in paragraph at lines 312--313
+\TU/TeXGyreTermesX(0)/m/n/10 leased the Chinese first “industrial-grade” large medical model
+ []
+
+
+Overfull \hbox (4.44263pt too wide) in paragraph at lines 312--313
+\TU/TeXGyreTermesX(0)/m/n/10 tions such as medical record generation, patient condition brief-
+ []
+
 [3]
-Overfull \hbox (0.81927pt too wide) in paragraph at lines 392--392
+Overfull \hbox (6.74292pt too wide) in paragraph at lines 314--315
+[] []\TU/lmss/bx/n/9 Pharmaceutical[] \TU/TeXGyreTermesX(0)/m/n/10 Huawei Cloud Pangu Drug Molecular Model
+ []
+
+
+Overfull \hbox (9.88927pt too wide) in paragraph at lines 314--315
+\TU/TeXGyreTermesX(0)/m/n/10 model helped develop broad-spectrum antibacterial drugs, short-
+ []
+
+
+Overfull \hbox (9.76595pt too wide) in paragraph at lines 330--331
+\TU/TeXGyreTermesX(0)/m/n/10 mulated over past 40 years, Bloomberg released BloombergGPT,
+ []
+
+[4]
+Overfull \hbox (0.81927pt too wide) in paragraph at lines 398--398
 []\TU/TeXGyreTermesX(0)/m/n/10 Curabitur tellus magna, porttitor a, commodo a, commodo
  []
 
-[4] (./article_3.bbl
+(./article_3.bbl
 
 Package fontspec Info: Font family 'TeXGyreTermesX(1)' created for font
 (fontspec)             'TeXGyreTermesX' with options [Ligatures = TeX,Scale =
@@ -968,7 +1000,7 @@ Underfull \hbox (badness 1436) in paragraph at lines 24--26
 []\TU/TeXGyreTermesX(0)/m/n/10 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob
  []
 
-) [5
+[5]) [6
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -978,15 +1010,15 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
 Package rerunfilecheck Info: File `article_3.out' has not changed.
-(rerunfilecheck)             Checksum: F249124A890940BFE9963001912C3E9F;4664.
+(rerunfilecheck)             Checksum: 181A0C09C5E4E06ED8CAB8336F62EB56;4615.
  ) 
 Here is how much of TeX's memory you used:
- 21711 strings out of 475161
- 394725 string characters out of 5770285
+ 21722 strings out of 475161
+ 394937 string characters out of 5770285
  1947674 words of memory out of 5000000
- 43111 multiletter control sequences out of 15000+600000
+ 43121 multiletter control sequences out of 15000+600000
  592683 words of font info for 138 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 85i,13n,108p,1002b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,13n,108p,1008b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on article_3.pdf (5 pages).
+Output written on article_3.pdf (6 pages).
