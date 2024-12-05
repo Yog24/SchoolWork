@@ -1,0 +1,58 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Introduction}{1}{Doc-Start}%
+\contentsline {section}{\numberline {1}Overview of Core-tech in LLMs}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Machanism}{2}{subsection.1.1}%
+\contentsline {paragraph}{Paragraph}{2}{paragraph*.2}%
+\contentsline {paragraph}{Paragraph}{2}{paragraph*.3}%
+\contentsline {subsection}{\numberline {1.2}Architectures}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Potential Issues}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Industry Application Scenarios}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Content Creation}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Automatical Writing}{2}{subsubsection.2.1.1}%
+\contentsline {paragraph}{Case}{2}{paragraph*.4}%
+\contentsline {subsubsection}{\numberline {2.1.2}Need-to-be-done}{2}{subsubsection.2.1.2}%
+\contentsline {paragraph}{Case}{2}{paragraph*.5}%
+\contentsline {subsection}{\numberline {2.2}Chatbot}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Customer Support}{2}{subsubsection.2.2.1}%
+\contentsline {paragraph}{Case}{2}{paragraph*.6}%
+\contentsline {subsubsection}{\numberline {2.2.2}Q\&A Systems}{2}{subsubsection.2.2.2}%
+\contentsline {paragraph}{Case}{2}{paragraph*.7}%
+\contentsline {subsection}{\numberline {2.3}Healcare}{2}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Diagnostic Assistance}{2}{subsubsection.2.3.1}%
+\contentsline {paragraph}{Case}{2}{paragraph*.8}%
+\contentsline {subsubsection}{\numberline {2.3.2}Medical Record Generation}{2}{subsubsection.2.3.2}%
+\contentsline {paragraph}{Case}{2}{paragraph*.9}%
+\contentsline {subsubsection}{\numberline {2.3.3}Health Analysis \& Advice}{2}{subsubsection.2.3.3}%
+\contentsline {paragraph}{Case}{2}{paragraph*.10}%
+\contentsline {subsection}{\numberline {2.4}Education}{2}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Personalized Learning}{2}{subsubsection.2.4.1}%
+\contentsline {paragraph}{Case}{2}{paragraph*.11}%
+\contentsline {subsubsection}{\numberline {2.4.2}Language Learning}{2}{subsubsection.2.4.2}%
+\contentsline {paragraph}{Case}{2}{paragraph*.12}%
+\contentsline {subsubsection}{\numberline {2.4.3}Skills Training}{2}{subsubsection.2.4.3}%
+\contentsline {paragraph}{Case}{2}{paragraph*.13}%
+\contentsline {subsection}{\numberline {2.5}Finace \& Legal}{2}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Sales and Marketing}{2}{subsubsection.2.5.1}%
+\contentsline {paragraph}{Case}{2}{paragraph*.14}%
+\contentsline {subsubsection}{\numberline {2.5.2}Financial Analysis}{2}{subsubsection.2.5.2}%
+\contentsline {paragraph}{Case}{2}{paragraph*.15}%
+\contentsline {subsubsection}{\numberline {2.5.3}Risk Assessment}{2}{subsubsection.2.5.3}%
+\contentsline {paragraph}{Case}{2}{paragraph*.16}%
+\contentsline {subsubsection}{\numberline {2.5.4}Legal Assistance}{2}{subsubsection.2.5.4}%
+\contentsline {paragraph}{Case}{2}{paragraph*.17}%
+\contentsline {section}{\numberline {3}Opportunities}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Ehancing Efficiency}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Improving Quality}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Expanding Market Scale}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Personalized Service}{3}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Challenges}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data Privacy}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Data Resources}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Ethics \& Bias}{3}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Costs}{3}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Regulatory \& Legal Risks}{3}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Technical Limitations}{3}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Conclusion}{3}{section.5}%
+\contentsfinish 
+\contentsline {section}{Acknowledgments}{4}{section*.18}%
+\contentsline {section}{References}{4}{section*.19}%

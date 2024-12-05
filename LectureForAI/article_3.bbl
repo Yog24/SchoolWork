@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{Vaswani:2017at}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez, L.~Kaiser, and I.~Polosukhin.
+\newblock Attention is all you need.
+\newblock {\em Advances in Neural Information Processing Systems}, 30:5998--6008, 2017.
+
+\bibitem{Radford:2018tf}
+A.~Radford, K.~Narasimhan, T.~Salimans, and I.~Sutskever.
+\newblock Improving language understanding by generative pre-training.
+\newblock {\em OpenAI Research}, 2018.
+
+\bibitem{Devlin:2018br}
+J.~Devlin, M.~W. Chang, K.~Lee, and K.~Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language understanding.
+\newblock {\em Proceedings of the NAACL-HLT}, 1:4171--4186, 2018.
+
+\bibitem{Bender:2021ai}
+E.~M. Bender, T.~Gebru, A.~McMillan-Major, and S.~Shmitchell.
+\newblock On the dangers of stochastic parrots: Can language models be too big?
+\newblock {\em Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency}, pages 610--623, 2021.
+
+\bibitem{Figueredo:2009dg}
+A.~J. Figueredo and P.~S.~A. Wolf.
+\newblock Assortative pairing and life history strategy - a cross-cultural study.
+\newblock {\em Human Nature}, 20:317--330, 2009.
+
+\bibitem{Smith:2012qr}
+J.~M. Smith and A.~B. Jones.
+\newblock {\em {B}ook {T}itle}.
+\newblock Publisher, 7th edition, 2012.
+
+\end{thebibliography}
