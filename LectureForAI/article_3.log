@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.25)  6 DEC 2024 02:30
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.25)  6 DEC 2024 18:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -932,9 +932,85 @@ Overfull \hbox (9.76595pt too wide) in paragraph at lines 330--331
 \TU/TeXGyreTermesX(0)/m/n/10 mulated over past 40 years, Bloomberg released BloombergGPT,
  []
 
+
+Overfull \hbox (9.89595pt too wide) in paragraph at lines 383--384
+\TU/TeXGyreTermesX(0)/m/n/10 Large language models’ most apparent feature is literally ”large”,
+ []
+
+
+Overfull \hbox (4.91817pt too wide) in paragraph at lines 383--384
+\TU/TeXGyreTermesX(0)/m/n/10 and deploy these models. Considering to this fact, there emerge
+ []
+
+
+Overfull \hbox (9.2384pt too wide) in paragraph at lines 387--388
+[]\TU/TeXGyreTermesX(0)/m/n/10 SP focuses on removing redundancy
+ []
+
 [4]
-Overfull \hbox (0.81927pt too wide) in paragraph at lines 398--398
-[]\TU/TeXGyreTermesX(0)/m/n/10 Curabitur tellus magna, porttitor a, commodo a, commodo
+Overfull \hbox (15.74927pt too wide) in paragraph at lines 390--392
+[]\TU/TeXGyreTermesX(0)/m/n/10 Model distillation, also known as Knowledge Distillation(KD)
+ []
+
+File: Figures/RAG.png Graphic file (type bmp)
+<Figures/RAG.png>
+
+Overfull \hbox (0.97844pt too wide) in paragraph at lines 409--410
+\TU/TeXGyreTermesX(0)/m/n/10 into LLM embeddings, numerical representations in the
+ []
+
+
+Overfull \hbox (6.11928pt too wide) in paragraph at lines 411--412
+\TU/TeXGyreTermesX(0)/m/n/10 of 2023) can also incorporate specific augmentation mod-
+ []
+
+File: Figures/prompt.png Graphic file (type bmp)
+<Figures/prompt.png>
+
+Overfull \hbox (2.03824pt too wide) in paragraph at lines 424--425
+[] []\TU/lmss/bx/n/9 Rapidly growing market size[] \TU/TeXGyreTermesX(0)/m/n/10 According to statistics and fore-
+ []
+
+
+Overfull \hbox (2.25023pt too wide) in paragraph at lines 426--427
+[] []\TU/lmss/bx/n/9 Multi-industry Application[] \TU/TeXGyreTermesX(0)/m/n/10 LLMs show wide application po-
+ []
+
+
+Overfull \hbox (1.3526pt too wide) in paragraph at lines 428--429
+\TU/TeXGyreTermesX(0)/m/n/10 learning technology and large-scale pre-trained language mod-
+ []
+
+
+Overfull \hbox (6.48814pt too wide) in paragraph at lines 428--429
+\TU/TeXGyreTermesX(0)/m/n/10 els. Compared with traditional recommendation methods, large
+ []
+
+[5]
+Overfull \hbox (0.81818pt too wide) in paragraph at lines 430--432
+\TU/TeXGyreTermesX(0)/m/n/10 costs, regulatory and legal risks, and technical limitations. Ad-
+ []
+
+
+Overfull \hbox (0.18594pt too wide) in paragraph at lines 433--434
+\TU/TeXGyreTermesX(0)/m/n/10 Imagine the following scenario: You’ve just copied and pasted
+ []
+
+File: Figures/token_samples.jpg Graphic file (type bmp)
+<Figures/token_samples.jpg>
+
+Overfull \hbox (0.79594pt too wide) in paragraph at lines 438--444
+\TU/TeXGyreTermesX(0)/m/n/10 riddled with low-quality content such as gambling and pornog-
+ []
+
+
+Overfull \hbox (14.98929pt too wide) in paragraph at lines 447--448
+\TU/TeXGyreTermesX(0)/m/n/10 in their training data, which can perpetuate harm against marginal-
+ []
+
+[6]
+Overfull \hbox (2.28926pt too wide) in paragraph at lines 455--456
+\TU/TeXGyreTermesX(0)/m/n/10 computing power dispatching and used decentralized idle com-
  []
 
 (./article_3.bbl
@@ -986,23 +1062,141 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(1)/b/n' will be
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 6.
 
-Underfull \hbox (badness 2343) in paragraph at lines 9--12
-\TU/TeXGyreTermesX(0)/m/n/10 Improving language understanding by generative pre-
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+[]\TU/TeXGyreTermesX(0)/m/n/10 A. Radford, K. Narasimhan, T. Salimans, and
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 19--22
+Underfull \hbox (badness 1264) in paragraph at lines 9--12
+\TU/TeXGyreTermesX(0)/m/n/10 I. Sutskever.  Improving language understanding by
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 23--26
 []\TU/TeXGyreTermesX(0)/m/n/10 E. M. Bender, T. Gebru, A. McMillan-Major, and
  []
 
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1436) in paragraph at lines 24--26
-[]\TU/TeXGyreTermesX(0)/m/n/10 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob
+Underfull \hbox (badness 4886) in paragraph at lines 44--48
+[]\TU/TeXGyreTermesX(0)/m/n/10 Inc. Amazon Web Services.  ”what is rag? -
  []
 
-[5]) [6
 
-] 
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+\TU/TeXGyreTermesX(0)/m/n/10 retrieval-augmented generation ai explained -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+\TU/TeXGyreTermesX(0)/m/n/10 aws”.  [][]$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][] [] [][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 44--48
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][]\TU/TeXGyreTermesX(0)/m/n/10 , 2024.  16
+ []
+
+[7]
+Underfull \hbox (badness 7151) in paragraph at lines 54--58
+[]\TU/TeXGyreTermesX(0)/m/n/10 Inc. QYResearch.  2024-2030 global and china
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 54--58
+\TU/TeXGyreTermesX(0)/m/n/10 large language model (llm) market status and fore-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 60--64
+[]\TU/TeXGyreTermesX(0)/m/n/10 Prospective Industry Research Institute.  2024-2029
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 60--64
+\TU/TeXGyreTermesX(0)/m/n/10 china large model industry development prospects
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+\TU/TeXGyreTermesX(0)/m/n/10 and investment strategy planning analysis report.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+[][]$[][][][][] [] [] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+[]\TU/TeXGyreTermesX(0)/m/n/10 User.  Paper introduction | application of per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+\TU/TeXGyreTermesX(0)/m/n/10 sonalized large model in recommendation field.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+[][]$[][][][][] [] [] [] [][][][] [] [][][][] [] [][][] [] [][] [] [][][][][][][][] [] [][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+[][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+[][][][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+[][][][][][][][][][] [] [][] [] [][][][][][][][][][][] [] [][] [] [][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 72--76
+[]\TU/TeXGyreTermesX(0)/m/n/10 Sean Falconer.  Privacy in the age of generative
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 72--76
+\TU/TeXGyreTermesX(0)/m/n/10 ai.  [][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][][] [] [][][][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][]\TU/TeXGyreTermesX(0)/m/n/10 , 2023.
+ []
+
+Missing character: There is no 🦜 (U+1F99C) in font [TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+
+Underfull \hbox (badness 1259) in paragraph at lines 87--90
+\TU/TeXGyreTermesX(0)/m/n/10 bias.  [][]$[][][][][] [] [] [] [][][][] [] [][] [] [][][] [] [][] [] [][][][][] [] [][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 97--100
+\TU/TeXGyreTermesX(0)/m/n/10 ing cost, and data set information have all been re-
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 107--110
+[]\TU/TeXGyreTermesX(0)/m/n/10 Inc. Google.  Google 2022 environmental report.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
+[][]$[][][][][] [] [] [] [][][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][][] []
+ []
+
+) [8] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./article_3.aux)
  ***********
@@ -1010,15 +1204,15 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
 Package rerunfilecheck Info: File `article_3.out' has not changed.
-(rerunfilecheck)             Checksum: 181A0C09C5E4E06ED8CAB8336F62EB56;4615.
+(rerunfilecheck)             Checksum: 8D1E02EA9025BE59F54D6CB8936ECBE0;4201.
  ) 
 Here is how much of TeX's memory you used:
- 21722 strings out of 475161
- 394937 string characters out of 5770285
+ 21776 strings out of 475161
+ 396171 string characters out of 5770285
  1947674 words of memory out of 5000000
- 43121 multiletter control sequences out of 15000+600000
- 592683 words of font info for 138 fonts, out of 8000000 for 9000
+ 43169 multiletter control sequences out of 15000+600000
+ 592691 words of font info for 139 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 85i,13n,108p,1008b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,13n,108p,1371b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on article_3.pdf (6 pages).
+Output written on article_3.pdf (8 pages).

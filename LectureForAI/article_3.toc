@@ -25,18 +25,23 @@
 \contentsline {subsection}{\numberline {2.5}Finace}{4}{subsection.2.5}%
 \contentsline {paragraph}{Financial Analysis}{4}{paragraph*.11}%
 \contentsline {section}{\numberline {3}Opportunities}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Ehancing Efficiency}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Improving Quality}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Expanding Market Scale}{4}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Personalized Service}{4}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Challenges}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Data Privacy}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Data Resources}{4}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Ethics \& Bias}{4}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Costs}{4}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Regulatory \& Legal Risks}{4}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Technical Limitations}{4}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Conclusion}{4}{section.5}%
-\contentsline {section}{Acknowledgments}{5}{section*.12}%
-\contentsline {section}{References}{5}{section*.13}%
+\contentsline {subsection}{\numberline {3.1}Efficiency}{4}{subsection.3.1}%
+\contentsline {paragraph}{Model pruning and distillation}{4}{paragraph*.12}%
+\contentsline {subsection}{\numberline {3.2}Content Quality}{5}{subsection.3.2}%
+\contentsline {paragraph}{RAG}{5}{paragraph*.14}%
+\contentsline {paragraph}{Prompt}{5}{paragraph*.16}%
+\contentsline {subsection}{\numberline {3.3}Expanding Market Scale}{5}{subsection.3.3}%
+\contentsline {paragraph}{Rapidly growing market size}{5}{paragraph*.17}%
+\contentsline {paragraph}{Multi-industry Application}{5}{paragraph*.18}%
+\contentsline {subsection}{\numberline {3.4}Personalized Service}{5}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Challenges}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data Privacy}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Data Resources}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Ethics \& Bias}{6}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Costs}{6}{subsection.4.4}%
+\contentsline {paragraph}{High Computational Costs}{6}{paragraph*.20}%
+\contentsline {paragraph}{Resources Consumption}{7}{paragraph*.21}%
+\contentsline {section}{\numberline {5}Conclusion}{7}{section.5}%
+\contentsline {section}{Acknowledgments}{7}{section*.22}%
+\contentsline {section}{References}{7}{section*.23}%
 \contentsfinish 

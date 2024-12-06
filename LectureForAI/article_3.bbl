@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Vaswani:2017at}
 A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez, L.~Kaiser, and I.~Polosukhin.
@@ -15,6 +15,10 @@ J.~Devlin, M.~W. Chang, K.~Lee, and K.~Toutanova.
 \newblock Bert: Pre-training of deep bidirectional transformers for language understanding.
 \newblock {\em Proceedings of the NAACL-HLT}, 1:4171--4186, 2018.
 
+\bibitem{zhao2024surveylargelanguagemodels}
+Wayne~Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, Yifan Du, Chen Yang, Yushuo Chen, Zhipeng Chen, Jinhao Jiang, Ruiyang Ren, Yifan Li, Xinyu Tang, Zikang Liu, Peiyu Liu, Jian-Yun Nie, and Ji-Rong Wen.
+\newblock A survey of large language models, 2024.
+
 \bibitem{Bender:2021ai}
 E.~M. Bender, T.~Gebru, A.~McMillan-Major, and S.~Shmitchell.
 \newblock On the dangers of stochastic parrots: Can language models be too big?
@@ -28,14 +32,80 @@ Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N
 Weiqi Wu, Hongqiu Wu, Lai Jiang, Xingyuan Liu, Jiale Hong, Hai Zhao, and Min Zhang.
 \newblock From role-play to drama-interaction: An llm solution, 2024.
 
-\bibitem{Figueredo:2009dg}
-A.~J. Figueredo and P.~S.~A. Wolf.
-\newblock Assortative pairing and life history strategy - a cross-cultural study.
-\newblock {\em Human Nature}, 20:317--330, 2009.
+\bibitem{hinton2015distillingknowledgeneuralnetwork}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock Distilling the knowledge in a neural network, 2015.
 
-\bibitem{Smith:2012qr}
-J.~M. Smith and A.~B. Jones.
-\newblock {\em {B}ook {T}itle}.
-\newblock Publisher, 7th edition, 2012.
+\bibitem{gao2024retrievalaugmentedgenerationlargelanguage}
+Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi~Dai, Jiawei Sun, Meng Wang, and Haofen Wang.
+\newblock Retrieval-augmented generation for large language models: A survey, 2024.
+
+\bibitem{website}
+Inc. Amazon Web~Services.
+\newblock "what is rag? - retrieval-augmented generation ai explained - aws".
+\newblock \url{https://aws.amazon.com/what-is/retrieval-augmented-generation/}, 2024.
+\newblock 16 July.
+
+\bibitem{he2024doespromptformattingimpact}
+Jia He, Mukund Rungta, David Koleczek, Arshdeep Sekhon, Franklin~X Wang, and Sadid Hasan.
+\newblock Does prompt formatting have any impact on llm performance?, 2024.
+
+\bibitem{website-llm-market}
+Inc. QYResearch.
+\newblock 2024-2030 global and china large language model (llm) market status and forecast.
+\newblock \url{https://www.qyresearch.com.cn/reports/3752570/large-language-model--llm}, 2024.
+\newblock 17 May.
+
+\bibitem{website-llm-mulins}
+Prospective Industry~Research Institute.
+\newblock 2024-2029 china large model industry development prospects and investment strategy planning analysis report.
+\newblock \url{https://www.qianzhan.com/analyst/detail/220/240716-295ffeeb.html}, 2024.
+\newblock 17 July.
+
+\bibitem{csdn-person-rec}
+User.
+\newblock Paper introduction | application of personalized large model in recommendation field.
+\newblock \url{https://blog.csdn.net/m0_59163425/article/details/143894373?fromshare=blogdetail&sharetype=blogdetail&sharerId=143894373&sharerefer=PC&sharesource=qq_39653587&sharefrom=from_link}, 2024.
+\newblock 19 Nov.
+
+\bibitem{stackoverflow-dataprivacy}
+Sean Falconer.
+\newblock Privacy in the age of generative ai.
+\newblock \url{https://stackoverflow.blog/2023/10/23/privacy-in-the-age-of-generative-ai/}, 2023.
+\newblock 23 Oct.
+
+\bibitem{yang2024problematictokenstokenizerbias}
+Jin Yang, Zhiqiang Wang, Yanbin Lin, and Zunduo Zhao.
+\newblock Problematic tokens: Tokenizer bias in large language models, 2024.
+
+\bibitem{10.1145/3442188.3445922}
+Emily~M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell.
+\newblock On the dangers of stochastic parrots: Can language models be too big? 🦜.
+\newblock In {\em Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency}, FAccT '21, page 610–623, New York, NY, USA, 2021. Association for Computing Machinery.
+
+\bibitem{unres}
+UNESCO and International Research~Center on~Artificial~Intelligence.
+\newblock Generative ai exacerbates gender bias.
+\newblock \url{https://news.un.org/zh/story/2024/03/1127197}, 2024.
+
+\bibitem{unnes}
+UNNEW.
+\newblock Challenging systematic prejudices: an investigation into bias against women and girls in large language models.
+\newblock \url{https://unesdoc.unesco.org/ark:/48223/pf0000388971}, 2024.
+
+\bibitem{gptcost}
+The~Heart of~Machine.
+\newblock Gpt-4 model architecture, training cost, and data set information have all been revealed.
+\newblock \url{https://www.jiqizhixin.com/articles/2023-07-11-7}, 2023.
+
+\bibitem{reducecost}
+Gongji HashRate.
+\newblock A company of distributed computing in ai.
+\newblock \url{https://www.gongjiyun.com/}.
+
+\bibitem{googlereport}
+Inc. Google.
+\newblock Google 2022 environmental report.
+\newblock \url{https://sustainability.google/reports/google-2022-environmental-report/}, 2022.
 
 \end{thebibliography}
